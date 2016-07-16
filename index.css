@@ -131,3 +131,12 @@ li a:hover {
     font-family: myFirstFont;
 }
 
+#news img {
+    width: 300px;
+    height: 450px
+}
+
+#sponsors img {
+    width: 350px;
+    height: 450PX;
+}
