@@ -10,6 +10,20 @@
     z-index: 6; /* integer */
 }
 
+
+.social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: Black;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 6; /* integer */
+}
+
+
 {padding-top: 70px;
 }
 
