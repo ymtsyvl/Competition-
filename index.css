@@ -47,7 +47,7 @@ li a:hover {
     background-color: #A7FFEB;
 }
 
-img {
+#programme img {
 	width: 260px;
 }
 
@@ -55,4 +55,23 @@ img {
 	font-weight: bold;
 	text-decoration: none;
 	font-size: 13px;
+}
+
+.cover {
+	min-height: 550px;
+	background-size: cover;
+	background-image: url("images/cover.jpg")
+}
+
+.cover h1 {
+	text-align: center;
+	color: white;
+}
+
+.cover p {
+	text-align: center;
+	font-size: 60px;
+	color: white;
+	padding: 250px;
+	font-weight: bold;
 }
