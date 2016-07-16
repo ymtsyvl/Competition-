@@ -28,3 +28,7 @@ li a:hover {
 .active {
     background-color: #A7FFEB;
 }
+
+img {
+	width: 260px;
+}
