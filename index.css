@@ -62,8 +62,7 @@ li a:hover {
 }
 
 #contacts {
-    background-color: black;
-    font-color: white;
+    background-color: #A7FFEB;
 }
 
 #programme img {
@@ -127,3 +126,16 @@ li a:hover {
 #contacts h1 {
 	font-family: myFirstFont;
 }
+
+#contacts h4 {
+    font-family: myFirstFont;
+}
+
+#contacts p {
+    font-family: myFirstFont;
+}
+
+#contacts form {
+    font-family: myFirstFont;
+}
+
