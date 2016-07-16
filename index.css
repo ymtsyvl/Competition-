@@ -30,8 +30,12 @@
     z-index: 6; /* making sure the nav bar is top level */
 }
 
+hr {
+  color: #123455;
+}
 
-{   padding-top: 70px;
+
+{   padding-top: 60px;
 }
 
 li {
@@ -54,6 +58,12 @@ li a:hover {
 
 .active {
     background-color: #A7FFEB;
+
+}
+
+#contacts {
+    background-color: black;
+    font-color: white;
 }
 
 #programme img {
