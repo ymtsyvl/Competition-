@@ -32,3 +32,8 @@ li a:hover {
 img {
 	width: 260px;
 }
+
+#read {
+	font-weight: bold;
+	text-decoration: none;
+}
