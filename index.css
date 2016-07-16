@@ -10,9 +10,10 @@
     overflow: hidden;
     background-color: black;
     position: fixed;
+    text-align: center;
     top: 0;
     width: 100%;
-    z-index: 6; /* integer */
+    z-index: 6; /* making sure the nav bar is top level */
 }
 
 
@@ -25,16 +26,17 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    z-index: 6; /* integer */
-
+    text-align: center;
+    z-index: 6; /* making sure the nav bar is top level */
 }
 
 
-{padding-top: 70px;
+{   padding-top: 70px;
 }
 
 li {
     float: left;
+    display: inline;
 }
 
 li a {
