@@ -74,6 +74,7 @@ li a:hover {
 
 #programme h4 {
 	font-family: myFirstFont;
+	text-align: center;
 }
 
 #read {
@@ -85,7 +86,7 @@ li a:hover {
 .cover {
 	min-height: 550px;
 	background-size: cover;
-	background-image: url("images/film.jpg")
+	background-image: url("images/film.jpg");
 }
 
 
