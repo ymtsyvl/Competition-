@@ -139,14 +139,21 @@ li a:hover {
     margin: auto;
 }
 
-.carousel {
-    margin-top: 20px;
+#myCarousel {
     display: cover;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
 }
 
-.carousel .item img{
-    margin: 0 auto; /* Align slide image horizontally center */
+#news {
+    font-family: myFirstFont;
 }
 
-.bs-example{
-    margin: 20px;
+#sponsors {
+    font-family: myFirstFont;
+    margin: 10px;
+}
+
+
+
