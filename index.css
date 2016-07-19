@@ -35,18 +35,17 @@ hr {
 }
 
 
-
-
 li {
     float: left;
     display: inline;
+    font-size: 20px;
+    padding: 16px;
 }
 
 
 li a {
     display: block;
     color: white;
-    padding: 18px 17px;
     text-decoration: none;
 	font-family: myFirstFont;
 }
