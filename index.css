@@ -133,18 +133,6 @@ li a:hover {
     height: 450PX;
 }
 
-.carousel-inner img {
-    display: block;
-    max-width: 100%;
-    margin: auto;
-}
-
-#myCarousel {
-    display: cover;
-    height: auto;
-    max-width: 100%;
-    margin: 0;
-}
 
 #news {
     font-family: myFirstFont;
