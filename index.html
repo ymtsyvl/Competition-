@@ -170,6 +170,23 @@
 				<h4 align="right"> Contact us</h4>
 				<p align="right"> LDN DOCFEST <br> The Shard <br> 32 London Bridge Street <br> London <br> SE1 9SG </p>
 				</div>
+
+				<!--- adding google maps to our page-->
+
+				<div id="map"></div>
+			    <script>
+			      function initMap() {
+			        var mapDiv = document.getElementById('map');
+			        var map = new google.maps.Map(mapDiv, {
+			            center: {lat: 51.504, lng: 0.086},
+			            zoom: 8
+			        });
+			      }
+			    </script>
+			    <script async defer
+			        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeIfw9cB9MxSwMnlwouhNo0-s_nLK3IXg&callback=initMap">
+			    </script>
+			</div>
 		</div>
 	</div>
 
