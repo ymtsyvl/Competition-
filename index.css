@@ -111,7 +111,6 @@ li a:hover {
 }
 
 #tickets {
-    text-align: center;
     font-family: myFirstFont;
 }
 
@@ -147,4 +146,12 @@ li a:hover {
 
 .carousel-inner img {
     height: 20%;
+}
+
+.t_headings {
+    font-family: myFirstFont;
+}
+
+.t_buttons {
+    font-family: myFirstFont;
 }
