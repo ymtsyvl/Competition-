@@ -12,6 +12,22 @@
   <!--adding a tabicon-->
   <link rel="icon" href="Images/Logo.png">
 
+  <!--- adding google maps to our page-->
+  <script
+	src="http://maps.googleapis.com/maps/api/js">
+  </script>
+  <script>
+	function initialize() {
+	  var mapProp = {
+	    center:new google.maps.LatLng(51.5045,0.0865),
+	    zoom:12,
+	    mapTypeId:google.maps.MapTypeId.ROADMAP
+	  };
+	  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);;marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(51.5045,0.0865)});infowindow = new google.maps.InfoWindow({content:'<strong>DOCFEST</strong><br>The Shard,London, United Kingdom<br>'});
+	}
+	google.maps.event.addDomListener(window, 'load', initialize);
+  </script>
+
   </head>
   <body>
     <!-- navigation bar is fixed, so when scrolling down always acccessible-->
@@ -249,19 +265,9 @@
 	</div>
 	
 	<!--- adding google maps to our page-->
-	<div id="map"></div>
-	    <script>
-	      function initMap() {
-	        var mapDiv = document.getElementById('map');
-	        var map = new google.maps.Map(mapDiv, {
-	            center: {lat: 51.504, lng: 0.086},
-	            zoom: 8
-	        });
-	      }
-	    </script>
-	    <script async defer
-	        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeIfw9cB9MxSwMnlwouhNo0-s_nLK3IXg&callback=initMap">
-	    </script>
+
+	<div id="googleMap" style="width:1006px;height:380px;"></div>
+
 
     <!--Another navigation bar fixed at the bottom of the screen. Contains links to social media-->
 	<div class="social">
