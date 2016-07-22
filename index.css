@@ -80,6 +80,10 @@ li a:hover {
 	text-align: center;
 }
 
+#p_text {
+    font-family: Gill Sans;
+}
+
 #read {
 	font-weight: bold;
 	text-decoration: none;
@@ -154,4 +158,18 @@ li a:hover {
 
 .t_buttons {
     font-family: myFirstFont;
+    border-radius: 5px;
+}
+
+.panel-heading {
+    font-family: myFirstFont;
+    color: white;
+}
+
+#get {
+    font-family: myFirstFont;
+}
+
+#info {
+    font-family: Gill Sans;
 }
