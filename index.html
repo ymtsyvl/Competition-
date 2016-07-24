@@ -20,11 +20,11 @@
   <script>
 	function initialize() {
 	  var mapProp = {
-	    center:new google.maps.LatLng(51.5045,0.0865),
+	    center:new google.maps.LatLng(51.5045,-0.0865),
 	    zoom:12,
 	    mapTypeId:google.maps.MapTypeId.ROADMAP
 	  };
-	  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);;marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(51.5045,0.0865)});infowindow = new google.maps.InfoWindow({content:'<strong>DOCFEST</strong><br>The Shard,London, United Kingdom<br>'});
+	  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);;marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(51.5045,-0.0865)});infowindow = new google.maps.InfoWindow({content:'<strong>DOCFEST</strong><br>The Shard,London, United Kingdom<br>'});
 	}
 	google.maps.event.addDomListener(window, 'load', initialize);
   </script>
@@ -39,7 +39,7 @@
             <li><a href="#cover">Home </a></li>
             <li><a href="#programme"> Programme </a></li>
             <li><a href="#news"> News </a></li>
-            <li style="float:right"><a href="#get">Book tickets </a></li>
+            <li><a href="#get">Book tickets </a></li>
         </ul>
 	</div>
   
@@ -273,14 +273,14 @@
 
     <!--Another navigation bar fixed at the bottom of the screen. Contains links to social media-->
 	<div class="social">
-		<ul align="center">
-	        <li style="float:center"><a href="https:/www.youtube.com"> 
+		<ul>
+	        <li><a href="https:/www.youtube.com"> 
 	            	<img src="Images/youtube.png" class="center-block img-responsive" width=30px height=30px>
 	            	</a></li>
-	        <li style="float:center"><a href="https://www.facebook.com/"> 
+	        <li><a href="https://www.facebook.com/"> 
 	            	<img src="Images/facebook.png" class="center-block img-responsive" width=30px height=30px>
 	            	</a></li>
-	        <li style="float:center"><a href="https://twitter.com/"> 
+	        <li><a href="https://twitter.com/"> 
 	            	<img src="Images/twitter.png" class="center-block img-responsive" width=30px height=30px>
 	            	</a></li>
 
