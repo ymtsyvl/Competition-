@@ -12,6 +12,7 @@
   <!--adding a tabicon-->
   <link rel="icon" href="Images/Logo.png">
 
+
   <!--- adding google maps to our page-->
   <script
 	src="http://maps.googleapis.com/maps/api/js">
@@ -27,7 +28,6 @@
 	}
 	google.maps.event.addDomListener(window, 'load', initialize);
   </script>
-
   </head>
   <body>
     <!-- navigation bar is fixed, so when scrolling down always acccessible-->
@@ -39,7 +39,7 @@
             <li><a href="#cover">Home </a></li>
             <li><a href="#programme"> Programme </a></li>
             <li><a href="#news"> News </a></li>
-            <li style="float:right"><a href="https://www.eventbrite.co.uk">Book tickets </a></li>
+            <li style="float:right"><a href="#get">Book tickets </a></li>
         </ul>
 	</div>
   
@@ -283,6 +283,11 @@
 	        <li style="float:center"><a href="https://twitter.com/"> 
 	            	<img src="Images/twitter.png" class="center-block img-responsive" width=30px height=30px>
 	            	</a></li>
+
+	        <!--- buttons to change colour scheme of page-->
+	        <li id="two" style="float:right"><a>Black</a></li>
+            <li id="one" style="float:right"><a>Pink</a></li>
+        
 	    </ul>
 
     </div>
