@@ -146,10 +146,14 @@ hr {
     margin: 10px;
 }
 
+.carousel-inner {
+    max-height: 600px;
+}
+
 .carousel-inner p {
     font-family: myFirstFont;
     font-size: 50px;
-    display: inline;
+    padding: 120px;
 }
 
 .carousel-inner img {
