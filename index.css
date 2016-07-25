@@ -136,6 +136,12 @@ hr {
     height: 450px
 }
 
+#sponsors img {
+    width: 150px;
+    height: 73px
+    padding: 100px 50px;
+}
+
 
 #news {
     font-family: myFirstFont;
