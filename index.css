@@ -164,9 +164,15 @@ hr {
     font-family: myFirstFont;
 }
 
+.p {
+    font-family: Gill Sans;
+}
+
 .t_buttons {
     font-family: myFirstFont;
     border-radius: 5px;
+    background: black;
+    color: white;
 }
 
 .panel-heading {
@@ -181,3 +187,4 @@ hr {
 #info {
     font-family: Gill Sans;
 }
+
