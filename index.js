@@ -14,13 +14,13 @@ $(document).ready(function(){
   $(document).ready(function(){
     $("li#one").click(function(){
         $("#contacts").css({
-            "background-color": "#ff9999",
+            "background-color": "#FFC107",
         });
         $(".navbar ul").css({
-            "background-color": "#ff9999",
+            "background-color": "#FFC107",
         });
         $(".social ul").css({
-            "background-color": "#ff9999",
+            "background-color": "#FFC107",
         });
    });
   });
